@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    padding: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
