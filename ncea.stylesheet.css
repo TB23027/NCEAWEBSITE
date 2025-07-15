@@ -1,13 +1,147 @@
-.flex-container {
-    display: flex;
-    flex-direction: row;
-}
-.logo {
-    padding: 50px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-header {
+.banner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;  
+    padding: 30px 20px;
+}
+
+.logo {
+    flex: 0 0 auto;
+}
+
+
+.banner h1 {
+    flex: 1;              
+    text-align: center;    
+    margin-left: -40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.banner2 {
+    background-color: grey;
+    padding: 10px 10px;
+}
+
+.links-navigate {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+  }
+
+.links-navigate li a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.info1 {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.text1 {
+    padding-left: 30px;
+    padding-bottom: 70px;
+    padding-right: 40px;
+}
+
+.text1 a {
+    font-size: 20px;
+}
+
+.text1 h2 {
+    font-size: 30px;
+}
+
+.info2 {
+    background-color: grey;
+    color: white;
+    display: flex;
+    padding: 30px 20px;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.info-text {
+    flex: 2;
+}
+
+.info-text h1{
+    font-weight: bold;
+    font-size: 27px;
+}
+.info-text h2 {
+    font-weight: bold;
+}
+
+.info-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.info-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: grey;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.info3 {
+    background-color: grey;
+    color: white;
+    display: flex;
+    padding: 30px 20px;
+    align-items: flex-start;
+}
+
+.htmlimage {
+    flex: 1;
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-start;
+    align-items: flex-end;   
+    gap: 20px;           
+    padding-right: 75px;    
+}
+
+.info-text2 {
+    flex: 2;
+    padding-left: 50px;
+}
+
+.info-text2 h1 {
+    font-size: 25px;
+}
+
+.info-text2 h2 {
+    font-size:20px;
+}
+
+.info-text2 a {
+    font-size:19px;
+}
+
+.info-text2 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
